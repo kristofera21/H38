@@ -3,37 +3,54 @@
 ## Week 1:
 
 ### Monday, 22 November:
-Today, we start by getting to know the project. After 
-that we start work on the design of the project. This 
-includes structural and behavioural diagramming along
-with interface design and more.
+Today, after the morning lecture, we will start by getting to know the
+team and the project itself. After that we will start work on collecting
+requirements and perform a user analysis.
 
 * Guðmundur:
-    * I worked on ...
+    * User analysis and requirements
 * Kolbeinn:
-    * I worked on ...
+    * Requirements
 * Kristófer:
-    * I worked on ...
+    * MIA
 * Smári:
-    * I worked on ...
+    * Requirements
 * Úlfur:
-    * I worked on ...
+    * User analysis and requirements
+
+There was not much work done on this day. Most of the day went into
+getting to know each other and the project. We have however started
+on gathering the requirements and found our target group for this
+solution.
 
 
 ### Tuesday, 23 November:
-Today, we started off by gathering the use cases and inserting them into a use case table.
-The table includes pre conditions, descriptions, post condion,..., etc for each use case.
-Later on Úlfur presented the group with a sketch of a possible interface design. 
-The group was pleased with the sketch, though we have not yet decieded on a final design for the interface.
-We also kept working on and updating the diagrams, i.e structural and behavioural.  
+Today, we will convert our requirements into use cases. Once we have
+a broad overview of the use cases for the system we will start
+designing the flow of the user interface. If we have time we will
+start designing the interface as well.
 
 * Guðmundur:
-    * I worked on ...
-* Hildur:
-    * I worked on ...
+    * Use cases and use case diagram
+* Kristófer:
+    * MIA, omitted from this point
 * Kolbeinn:
-    * I worked on ...
+    * Use cases
+* Ríkharður:
+    * UI Flow
 * Smári:
-    * I worked on ...
+    * Use cases
 * Úlfur:
-    * I worked on ...
+    * Use cases and UI flow, also started to explore designs
+    for windows
+
+
+Today, we were able to mostly complete writing the use cases. Each
+one maps to a requirement and they were also placed in a use case
+diagram. Once we got a broad overview of the use cases we started
+to design the UI flow. When we got further along with both tasks
+we started to experiment with UI designs.
+
+
+### Wednesday, 24 November:
+
