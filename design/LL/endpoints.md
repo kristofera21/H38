@@ -54,7 +54,7 @@
 
 ## Employees:
 
-### Get all employees:
+### Get All Employees:
 This method should return all the employees in the system. It should be accessible
 to all the users in the system. It should provide four optional parameters that
 should come in pairs:
@@ -73,11 +73,12 @@ This method should then return the following:
 ```
 EmployeeList(
     count: int = 25,
-    employees: list[SingleEmployee] = [
-        SingleEmployee(
+    employees: list[SimpleEmployee] = [
+        SimpleEmployee(
             employee_id: str = "1234567890abcdefg"
             name: str = "Úlfur Örn Björnsson",
-            security_number: int = 2811002110
+            security_number: int = 2811002110,
+            work_phone: int = 6627880
         ),
         ...  
     ]
@@ -85,9 +86,107 @@ EmployeeList(
 ```
 
 
-###
+### Create Employee:
+This method should create an employee in the system. It should take in a single
+parameter that is the create employee model. This input looks like the following:
+```
+CreateEmployeeInput(
+    name: str = "Úlfur Örn Björnsson",
+    security_number: int = 2811002110,
+    address: str = "Heiðargerði 21",
+    home_phone: int = 5812345,
+    work_phone: int = 6627880,
+    email: str = "ulfurinn@gmail.com",
+    location_id: str = "123456789abcdef"
+)
+```
+The system will additionally check for a few constraints:
+* The user must be a supervisor (Forbidden)
+* The social security number is unique (BadRequest)
+* The location ID exists in the system (NotFound)
+* Any other validation requirements we decide to implement (TBD)
+
+Afterwards the system will respond with a detailed employee model:
+```
+DetailEmployee(
+    employee_id: str = "1234567890abcdef"
+    name: str = "Úlfur Örn Björnsson",
+    security_number: int = 2811002110,
+    address: str = "Heiðargerði 21",
+    home_phone: int = 5812345,
+    work_phone: int = 6627880,
+    email: str = "ulfurinn@gmail.com",
+    location: BasicLocation = BasicLocation(
+        location_id: str = "123456789abcdef",
+        country: str = "Iceland",
+        airport: str = "Keflavík, Airport",
+        supervisor_id: str = "123456789abcdef"
+    )
+)
+```
 
 
+### Get Employee:
+This method should get an input of a single employee ID. It should be available to
+all users and should check for the following constraints:
+* The employee ID provided should exist in the system (NotFound)
+
+The system should then give the following response:
+```
+DetailEmployee(
+    employee_id: str = "1234567890abcdef"
+    name: str = "Úlfur Örn Björnsson",
+    security_number: int = 2811002110,
+    address: str = "Heiðargerði 21",
+    home_phone: int = 5812345,
+    work_phone: int = 6627880,
+    email: str = "ulfurinn@gmail.com",
+    location: BasicLocation = BasicLocation(
+        location_id: str = "123456789abcdef",
+        country: str = "Iceland",
+        airport: str = "Keflavík, Airport",
+        supervisor_id: str = "123456789abcdef"
+    )
+)
+```
+
+
+### Update Employee:
+This method should update an employee in the system. It should take in a single
+parameter that is the update employee model. This input looks like the following:
+```
+UpdateEmployeeInput(
+    name: str = "Úlfur Örn Björnsson",
+    address: str = "Heiðargerði 21",
+    home_phone: int = 5812345,
+    work_phone: int = 6627880,
+    email: str = "ulfurinn@gmail.com",
+    location_id: str = "123456789abcdef"
+)
+```
+The system will additionally check for a few constraints:
+* The user must be a supervisor (Forbidden)
+* The location ID exists in the system (NotFound)
+* Any other validation requirements we decide to implement (TBD)
+
+Afterwards the system will respond with a detailed employee model:
+```
+DetailEmployee(
+    employee_id: str = "1234567890abcdef"
+    name: str = "Úlfur Örn Björnsson",
+    security_number: int = 2811002110,
+    address: str = "Heiðargerði 21",
+    home_phone: int = 5812345,
+    work_phone: int = 6627880,
+    email: str = "ulfurinn@gmail.com",
+    location: BasicLocation = BasicLocation(
+        location_id: str = "123456789abcdef",
+        country: str = "Iceland",
+        airport: str = "Keflavík, Airport",
+        supervisor_id: str = "123456789abcdef"
+    )
+)
+```
 
 
 
