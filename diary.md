@@ -36,7 +36,7 @@ start designing the interface as well.
     * MIA, omitted from this point
 * Kolbeinn:
     * Use cases
-* Ríkharður:
+* Ríkharður (New member!):
     * UI Flow
 * Smári:
     * Use cases
@@ -53,4 +53,8 @@ we started to experiment with UI designs.
 
 
 ### Wednesday, 24 November:
-
+Today we will finish the use cases and start work on the design of
+the program itself. We will be creating wireframes for every, or
+at least close to every, window that the system will have. We will
+also start creating the class diagrams for the three layers of the
+system.
