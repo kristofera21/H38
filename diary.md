@@ -33,7 +33,7 @@ start designing the interface as well.
 * Guðmundur:
     * Use cases and use case diagram
 * Kristófer:
-    * MIA, omitted from this point
+    * MIA
 * Kolbeinn:
     * Use cases
 * Ríkharður (New member!):
@@ -58,3 +58,16 @@ the program itself. We will be creating wireframes for every, or
 at least close to every, window that the system will have. We will
 also start creating the class diagrams for the three layers of the
 system.
+
+* Guðmundur:
+    * 
+* Kristófer:
+    * 
+* Kolbeinn:
+    * 
+* Ríkharður:
+    * 
+* Smári:
+    * 
+* Úlfur:
+    * 

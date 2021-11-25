@@ -1,0 +1,87 @@
++------------------------------------------------+
+|                    Contractors                 |
++---+---------------------+------------+---------+
+| # |        Name         |  Location  |  Phone  |
++---+---------------------+------------+---------+
+| 0 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 1 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 2 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 3 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 0 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 1 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 2 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 3 |  Kristófer Andersen |   Iceland  | 6187515 |
+| 9 |  Kristófer Andersen |   Iceland  | 6187515 |
++---+---------------------+------------+---------+
+| a: prev    page: 1/13     total: 128   d: next |
++------------------------------------------------+
+| c: create    s: sort      f: filter    b: back |
++------------------------------------------------+
+
+
++------------------------------------------------+
+|                Create Contractor               |
++------------------------------------------------+
+|                                                |
+|             Name:       <---                   |
+|    Contract Name:                              |
+|            Phone:                              |
+|    Opening Hours:                              |
+|         Location:                              |
+|       Work Phone:                              |
+|                                                |
+|                                                |
++------------------------------------------------+
+| s: submit      a: up      d: down      b: back |
++------------------------------------------------+
+
+
++------------------------------------------------+
+|                Create Contractor               |
++------------------------------------------------+
+|                                                |
+|             Name: Kristófer Andersen           |
+|     Contact Name: Contractor Kristófer         |
+|            Phone: 6187515                      |
+|    Opening Hours: 9:00-17:00                   |
+|         Location:        <---                  |
+|       Work Phone:                              |
+|                                                |
+|                                                |
++------------------------------------------------+
+| s: submit      a: up      d: down      b: back |
++------------------------------------------------+
+
+
++------------------------------------------------+
+|                  View Contractor               |
++------------------------------------------------+
+|                                                |
+|             Name: Kristófer Andersen           |
+|     Contact Name: Contractor Kristófer         |
+|            Phone: 6187515                      |
+|    Opening Hours: 9:00-17:00                   |
+|         Location: Iceland                      |
+|       Work Phone: 6187515                      |
+|                                                |
+|                                                |
++------------------------------------------------+
+| s: submit      a: up      d: down      b: back |
++------------------------------------------------+
+
+
++------------------------------------------------+
+|                Update Contractor               |
++------------------------------------------------+
+|                                                |
+|             Name: Kristófer Andersen  <---     |
+|     Contact Name: Contractor Kristófer         |
+|            Phone: 6187515                      |
+|    Opening Hours: 9:00-17:00                   |
+|         Location: Iceland                      |
+|       Work Phone: 6187515                      |
+|                                                |
+|                                                |
++------------------------------------------------+
+| s: submit      a: up      d: down      b: back |
++------------------------------------------------+
